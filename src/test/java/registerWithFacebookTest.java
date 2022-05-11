@@ -2,9 +2,7 @@ import Pages.registerWithFacebookPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.time.Duration;
 
@@ -12,7 +10,7 @@ public class registerWithFacebookTest {
 
     private WebDriver driver;
 
-    @BeforeTest
+    @BeforeMethod
     public void SetUp(){
         System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
         driver = new ChromeDriver();
@@ -30,7 +28,7 @@ public class registerWithFacebookTest {
         page.checkURL_function();
     }
 
-    @AfterTest
+    @AfterMethod
     public void tearDown(){
         driver.close();
         driver.quit();
