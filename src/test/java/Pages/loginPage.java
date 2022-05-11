@@ -22,7 +22,7 @@ public class loginPage {
     @FindBy(xpath = "//input[@name='yt1']")
     private WebElement inputButton;
 
-    @FindBy(linkText = "User panel")
+    @FindBy(xpath = "//a[@href='https://letmeknow.online/index.php/en/admin/editprofile']")
     private WebElement userPanelLink;
 
     @FindBy(xpath = "//div[@class='user']")
