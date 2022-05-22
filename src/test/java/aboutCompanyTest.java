@@ -13,7 +13,7 @@ public class aboutCompanyTest {
 
     private WebDriver driver;
 
-    @BeforeTest
+    @BeforeMethod
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
         driver = new ChromeDriver();

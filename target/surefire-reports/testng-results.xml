@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-17T00:09:44 BST" name="Command line suite" finished-at="2022-05-17T00:10:45 BST" duration-ms="60247">
+    <groups>
+    </groups>
+    <test started-at="2022-05-17T00:09:44 BST" name="Command line test" finished-at="2022-05-17T00:10:45 BST" duration-ms="60247">
+      <class name="registerWithFacebookTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:registerWithFacebookTest@120d6fe6]" started-at="2022-05-17T00:10:27 BST" name="SetUp" finished-at="2022-05-17T00:10:31 BST" duration-ms="4673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RegisterWtihFacebook_Function()[pri:0, instance:registerWithFacebookTest@120d6fe6]" started-at="2022-05-17T00:10:31 BST" name="RegisterWtihFacebook_Function" finished-at="2022-05-17T00:10:35 BST" duration-ms="3412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWtihFacebook_Function -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:registerWithFacebookTest@120d6fe6]" started-at="2022-05-17T00:10:35 BST" name="tearDown" finished-at="2022-05-17T00:10:39 BST" duration-ms="4199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- registerWithFacebookTest -->
+      <class name="FaqTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:FaqTest@3ffcd140]" started-at="2022-05-17T00:10:08 BST" name="SetUp" finished-at="2022-05-17T00:10:12 BST" duration-ms="4280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="FaqFunction()[pri:0, instance:FaqTest@3ffcd140]" started-at="2022-05-17T00:10:12 BST" name="FaqFunction" finished-at="2022-05-17T00:10:13 BST" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FaqFunction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FaqTest@3ffcd140]" started-at="2022-05-17T00:10:13 BST" name="tearDown" finished-at="2022-05-17T00:10:14 BST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FaqTest -->
+      <class name="whatsappTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:whatsappTest@4ba2ca36]" started-at="2022-05-17T00:10:39 BST" name="SetUp" finished-at="2022-05-17T00:10:43 BST" duration-ms="3896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="WhatsApp_Function()[pri:0, instance:whatsappTest@4ba2ca36]" started-at="2022-05-17T00:10:43 BST" name="WhatsApp_Function" finished-at="2022-05-17T00:10:44 BST" duration-ms="1212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhatsApp_Function -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:whatsappTest@4ba2ca36]" started-at="2022-05-17T00:10:44 BST" name="tearDown" finished-at="2022-05-17T00:10:45 BST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- whatsappTest -->
+      <class name="categoryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:categoryTest@3e77a1ed]" started-at="2022-05-17T00:09:59 BST" name="setUp" finished-at="2022-05-17T00:10:04 BST" duration-ms="5192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CategoryJobsFunction()[pri:0, instance:categoryTest@3e77a1ed]" started-at="2022-05-17T00:10:04 BST" name="CategoryJobsFunction" finished-at="2022-05-17T00:10:08 BST" duration-ms="4156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CategoryJobsFunction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:categoryTest@3e77a1ed]" started-at="2022-05-17T00:10:08 BST" name="tearDown" finished-at="2022-05-17T00:10:08 BST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- categoryTest -->
+      <class name="aboutCompanyTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:aboutCompanyTest@31206beb]" started-at="2022-05-17T00:09:44 BST" name="setUp" finished-at="2022-05-17T00:09:52 BST" duration-ms="7587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="aboutUsFunction()[pri:0, instance:aboutCompanyTest@31206beb]" started-at="2022-05-17T00:09:52 BST" name="aboutUsFunction" finished-at="2022-05-17T00:09:58 BST" duration-ms="5893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUsFunction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aboutCompanyTest@31206beb]" started-at="2022-05-17T00:09:58 BST" name="tearDown" finished-at="2022-05-17T00:09:59 BST" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aboutCompanyTest -->
+      <class name="Hotcategories_Test">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:Hotcategories_Test@23bb8443]" started-at="2022-05-17T00:10:14 BST" name="SetUp" finished-at="2022-05-17T00:10:19 BST" duration-ms="5020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="HotCategories_Function()[pri:0, instance:Hotcategories_Test@23bb8443]" started-at="2022-05-17T00:10:19 BST" name="HotCategories_Function" finished-at="2022-05-17T00:10:19 BST" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotCategories_Function -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Hotcategories_Test@23bb8443]" started-at="2022-05-17T00:10:19 BST" name="tearDown" finished-at="2022-05-17T00:10:20 BST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Hotcategories_Test -->
+      <class name="loginTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:loginTest@1176dcec]" started-at="2022-05-17T00:10:20 BST" name="SetUp" finished-at="2022-05-17T00:10:24 BST" duration-ms="4368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Login_Function()[pri:0, instance:loginTest@1176dcec]" started-at="2022-05-17T00:10:24 BST" name="Login_Function" finished-at="2022-05-17T00:10:26 BST" duration-ms="2421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Function -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:loginTest@1176dcec]" started-at="2022-05-17T00:10:26 BST" name="tearDown" finished-at="2022-05-17T00:10:27 BST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- loginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
